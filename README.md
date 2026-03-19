@@ -5,8 +5,8 @@
 
 ## Zadanie 1 `Docker`
 
-- [x] **3.0** obraz ubuntu z Pythonem w wersji 3.10
-- [x] **3.5** obraz ubuntu:24.02 z Javą w wersji 8 oraz Kotlinem
+- [x] **3.0** obraz ubuntu z Pythonem w wersji 3.10 [[commit]](https://github.com/strek-o/e-biznes/tree/8d0c17ba33d0c16844d809869a3c54139567be94)
+- [x] **3.5** obraz ubuntu:24.02 z Javą w wersji 8 oraz Kotlinem [[commit]](https://github.com/strek-o/e-biznes/tree/f6287d0e21c33dc34bd593044ebb81150e20ed03)
 - [ ] **4.0** do powyższego należy dodać najnowszego Gradle’a oraz paczkę JDBC SQLite w ramach projektu na Gradle (build.gradle)
 - [ ] **4.5** stworzyć przykład typu HelloWorld oraz uruchomienie aplikacji przez CMD oraz gradle
 - [ ] **5.0** dodać konfigurację docker-compose
