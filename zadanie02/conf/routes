@@ -1,1 +1,5 @@
 GET     /product        controllers.ProductController.getAll()
+GET     /product/:id    controllers.ProductController.get(id: Int)
+POST    /product        controllers.ProductController.add(id: Int, name: String, price: Double)
+PUT     /product/:id    controllers.ProductController.update(id: Int, newName: String, newPrice: Double)
+DELETE  /product/:id    controllers.ProductController.delete(id: Int)
