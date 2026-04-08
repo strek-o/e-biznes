@@ -36,7 +36,7 @@ CRUD: show all, show by id (get), update (put), delete (delete), add (post).
 
 Aplikację należy uruchomić na dockerze.
 
-## Zadanie 3 `Go`
+## Zadanie 4 `Go`
 
 Należy stworzyć projekt w echo w Go. Należy wykorzystać gorm do stworzenia kilku modeli, gdzie pomiędzy dwoma musi być relacja. Należy zaimplementować proste endpointy do dodawania oraz wyświetlania danych za pomocą modeli. Jako bazę danych można wybrać dowolną, sugerowałbym jednak pozostać przy sqlite.
 
