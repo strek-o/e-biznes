@@ -1,6 +1,7 @@
 package main
 
 import (
+	"echo-crud/databases"
 	"echo-crud/routes"
 	"log"
 
@@ -9,6 +10,7 @@ import (
 )
 
 func main() {
+	databases.ConnectDB()
 	e := echo.New()
 
 	e.Use(middleware.RequestLoggerWithConfig(middleware.RequestLoggerConfig{

@@ -4,64 +4,68 @@ import (
 	"echo-crud/databases"
 	"echo-crud/models"
 	"net/http"
-	"strconv"
 
 	"github.com/labstack/echo/v4"
 )
 
 func GetAllProducts(c echo.Context) error {
-	var list []*models.Product
-	for _, p := range databases.ProductsDB {
-		list = append(list, p)
-	}
-	return c.JSON(http.StatusOK, list)
+	var products []models.Product
+	databases.DB.Find(&products)
+
+	return c.JSON(http.StatusOK, products)
 }
 
 func GetProduct(c echo.Context) error {
-	id, _ := strconv.Atoi(c.Param("id"))
-	if p, ok := databases.ProductsDB[id]; ok {
-		return c.JSON(http.StatusOK, p)
+	id := c.Param("id")
+	var p models.Product
+
+	if err := databases.DB.First(&p, id).Error; err != nil {
+		return echo.NewHTTPError(http.StatusNotFound, "NotFound")
 	}
-	return c.JSON(http.StatusNotFound, "NotFound")
+
+	return c.JSON(http.StatusOK, p)
 }
 
 func CreateProduct(c echo.Context) error {
-	p := &models.Product{
-		ID: databases.Seq,
-	}
+	p := new(models.Product)
 	if err := c.Bind(p); err != nil {
-		return err
+		return echo.NewHTTPError(http.StatusBadRequest, err.Error())
 	}
 
-	databases.ProductsDB[p.ID] = p
-	databases.Seq++
+	databases.DB.Create(p)
 
 	return c.JSON(http.StatusCreated, p)
 }
 
 func UpdateProduct(c echo.Context) error {
-	id, _ := strconv.Atoi(c.Param("id"))
-	p, ok := databases.ProductsDB[id]
-	if !ok {
-		return c.JSON(http.StatusNotFound, "NotFound")
+	id := c.Param("id")
+	var p models.Product
+
+	if err := databases.DB.First(&p, id).Error; err != nil {
+		return echo.NewHTTPError(http.StatusNotFound, "NotFound")
 	}
 
-	updatedProduct := new(models.Product)
-	if err := c.Bind(updatedProduct); err != nil {
-		return err
+	updatedData := new(models.Product)
+	if err := c.Bind(updatedData); err != nil {
+		return echo.NewHTTPError(http.StatusBadRequest, err.Error())
 	}
 
-	p.Name = updatedProduct.Name
-	p.Price = updatedProduct.Price
+	p.Name = updatedData.Name
+	p.Price = updatedData.Price
+	databases.DB.Save(&p)
 
 	return c.JSON(http.StatusOK, p)
 }
 
 func DeleteProduct(c echo.Context) error {
-	id, _ := strconv.Atoi(c.Param("id"))
-	if _, ok := databases.ProductsDB[id]; ok {
-		delete(databases.ProductsDB, id)
-		return c.NoContent(http.StatusNoContent)
+	id := c.Param("id")
+	var p models.Product
+
+	if err := databases.DB.First(&p, id).Error; err != nil {
+		return echo.NewHTTPError(http.StatusNotFound, "NotFound")
 	}
-	return c.JSON(http.StatusNotFound, "NotFound")
+
+	databases.DB.Delete(&p)
+
+	return c.NoContent(http.StatusNoContent)
 }
