@@ -40,8 +40,8 @@ Aplikację należy uruchomić na dockerze.
 
 Należy stworzyć projekt w echo w Go. Należy wykorzystać gorm do stworzenia kilku modeli, gdzie pomiędzy dwoma musi być relacja. Należy zaimplementować proste endpointy do dodawania oraz wyświetlania danych za pomocą modeli. Jako bazę danych można wybrać dowolną, sugerowałbym jednak pozostać przy sqlite.
 
-- [x] **3.0** Należy stworzyć aplikację we frameworku echo w j. Go, która będzie miała kontroler Produktów zgodny z CRUD
-- [x] **3.5** Należy stworzyć model Produktów wykorzystując gorm oraz wykorzystać model do obsługi produktów (CRUD) w kontrolerze (zamiast listy)
+- [x] **3.0** Należy stworzyć aplikację we frameworku echo w j. Go, która będzie miała kontroler Produktów zgodny z CRUD [[commit]](https://github.com/strek-o/e-biznes/tree/ee192db89b0abaecc5756655490a7099ee33cbfc)
+- [x] **3.5** Należy stworzyć model Produktów wykorzystując gorm oraz wykorzystać model do obsługi produktów (CRUD) w kontrolerze (zamiast listy) [[commit]](https://github.com/strek-o/e-biznes/tree/5cf03b41f62da6ba2373e153e7483f70ad6a213d)
 - [ ] **4.0** Należy dodać model Koszyka oraz dodać odpowiedni endpoint
 - [ ] **4.5** Należy stworzyć model kategorii i dodać relację między kategorią, a produktem
 - [ ] **5.0** Pogrupować zapytania w gorm’owe scope'y
