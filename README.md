@@ -65,7 +65,7 @@ Należy stworzyć 20 przypadków testowych w jednym z rozwiązań:
 
 Testy mają w sumie zawierać minimum 50 asercji (3.5). Mają również uruchamiać się na platformie Browserstack (5.0).
 
-- [x] **3.0** 3.0 Należy stworzyć 20 przypadków testowych w CypressJS lub Selenium (Kotlin, Python, Java, JS, Go, Scala)
+- [x] **3.0** Należy stworzyć 20 przypadków testowych w CypressJS lub Selenium (Kotlin, Python, Java, JS, Go, Scala) [[commit]](https://github.com/strek-o/e-biznes/tree/5ca2cdd07ddb1122efc2f2b76048cf5316022a54)
 - [ ] **3.5** Należy rozszerzyć testy funkcjonalne, aby zawierały minimum 50 asercji
 - [ ] **4.0** Należy stworzyć testy jednostkowe do wybranego wcześniejszego projektu z minimum 50 asercjami
 - [ ] **4.5** Należy dodać testy API, należy pokryć wszystkie endpointy z minimum jednym scenariuszem negatywnym per endpoint
