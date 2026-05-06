@@ -1,4 +1,4 @@
-### golangci-lint
+### [golangci-lint](https://golangci-lint.run/)
 
 ```sh
 git config core.hooksPath zadanie07/.githooks
