@@ -75,8 +75,8 @@ Testy mają w sumie zawierać minimum 50 asercji (3.5). Mają również uruchami
 
 Należy dodać projekt aplikacji klienckiej oraz serwerowej (jeden branch, dwa repozytoria) do [Sonara w wersji chmurowej](https://sonarcloud.io/). Należy poprawić aplikacje uzyskując 0 bugów, 0 zapaszków, 0 podatności, 0 błędów bezpieczeństwa. Dodatkowo należy dodać widżety sonarowe do README w repozytorium dane projektu z wynikami.
 
-- [x] **3.0** Należy dodać litera do odpowiedniego kodu aplikacji serwerowej w hookach gita
-- [x] **3.5** Należy wyeliminować wszystkie bugi w kodzie w Sonarze (kod aplikacji serwerowej)
-- [x] **4.0** Należy wyeliminować wszystkie zapaszki w kodzie w Sonarze (kod aplikacji serwerowej)
+- [x] **3.0** Należy dodać litera do odpowiedniego kodu aplikacji serwerowej w hookach gita [[commit]](https://github.com/strek-o/e-biznes/tree/7735239e5d8efc84499bf4044f0862ce4613aee6)
+- [x] **3.5** Należy wyeliminować wszystkie bugi w kodzie w Sonarze (kod aplikacji serwerowej) [[commit]](https://github.com/strek-o/e-biznes/tree/aafa6a2cbf2110d4b78f5652ea2b22e2e444e3f5)
+- [x] **4.0** Należy wyeliminować wszystkie zapaszki w kodzie w Sonarze (kod aplikacji serwerowej) [[commit]](https://github.com/strek-o/e-biznes/tree/aafa6a2cbf2110d4b78f5652ea2b22e2e444e3f5)
 - [ ] **4.5** Należy wyeliminować wszystkie podatności oraz błędy bezpieczeństwa w kodzie w Sonarze (kod aplikacji serwerowej)
 - [ ] **5.0** Należy wyeliminować wszystkie błędy oraz zapaszki w kodzie aplikacji klienckiej
