@@ -87,7 +87,7 @@ Należy skonfigurować klienta Oauth2 (4.0). Dane o użytkowniku wraz z tokenem 
 
 Prawidłowa komunikacja: react-sewer-dostawca-serwer(via return uri)-react.
 
-- [x] **3.0** Logowanie przez aplikację serwerową (bez Oauth2)
+- [x] **3.0** Logowanie przez aplikację serwerową (bez Oauth2) [[commit]](https://github.com/strek-o/e-biznes/tree/d602e6102fda27592f6214dbdd3cb6fe11f9c47a)
 - [ ] **3.5** Rejestracja przez aplikację serwerową (bez Oauth2)
 - [ ] **4.0** Logowanie via Google OAuth2
 - [ ] **4.5** Logowanie via Facebook lub Github OAuth2
