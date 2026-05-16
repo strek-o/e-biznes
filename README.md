@@ -80,3 +80,20 @@ Należy dodać projekt aplikacji klienckiej oraz serwerowej (jeden branch, dwa r
 - [x] **4.0** Należy wyeliminować wszystkie zapaszki w kodzie w Sonarze (kod aplikacji serwerowej) [[commit]](https://github.com/strek-o/e-biznes/tree/aafa6a2cbf2110d4b78f5652ea2b22e2e444e3f5)
 - [ ] **4.5** Należy wyeliminować wszystkie podatności oraz błędy bezpieczeństwa w kodzie w Sonarze (kod aplikacji serwerowej)
 - [ ] **5.0** Należy wyeliminować wszystkie błędy oraz zapaszki w kodzie aplikacji klienckiej
+
+## Zadanie 8 `Oauth2`
+
+Należy skonfigurować klienta Oauth2 (4.0). Dane o użytkowniku wraz z tokenem powinny być przechowywane po stronie bazy serwera, a nowy token (inny niż ten od dostawcy) powinien zostać wysłany do klienta (React). Można zastosować mechanizm sesji lub inny dowolny (5.0). Zabronione jest tworzenie klientów bezpośrednio po stronie React'a wyłączając z komunikacji aplikację serwerową.
+
+Prawidłowa komunikacja: react-sewer-dostawca-serwer(via return uri)-react.
+
+- [x] **3.0** Logowanie przez aplikację serwerową (bez Oauth2)
+- [ ] **3.5** Rejestracja przez aplikację serwerową (bez Oauth2)
+- [ ] **4.0** Logowanie via Google OAuth2
+- [ ] **4.5** Logowanie via Facebook lub Github OAuth2
+- [ ] **5.0** Zapisywanie danych logowania OAuth2 po stronie serwera
+
+Klucz należy uzyskać na:
+
+- https://console.cloud.google.com/apis/dashboard
+- https://developers.facebook.com/
