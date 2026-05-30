@@ -97,3 +97,15 @@ Klucz należy uzyskać na:
 
 - https://console.cloud.google.com/apis/dashboard
 - https://developers.facebook.com/
+
+## Zadanie 9 `GPT`
+
+Należy rozszerzyć funkcjonalność wcześniej stworzonego bota. Do niego należy stworzyć aplikację frontendową, która połączy się z osobnym serwisem, który przeanalizuje tekst od użytkownika i prześle zapytanie do GPT, a następnie prześle odpowiedź do użytkownika. Cały projekt należy stworzyć w Pythonie.
+
+- [ ] **3.0** Należy stworzyć po stronie serwerowej osobny serwis do łącznia z chatGPT
+- [ ] **3.5** Należy połączyć serwis z interfejsem frontendowym via serwis w Kotlinie (zadanie 3) - discord + JS
+- [ ] **4.0** Stworzyć listę 5 różnych otwarć oraz zamknięć rozmowy
+- [ ] **4.5** Filtrowanie po zagadnieniach związanych ze sklepem (np. ograniczenie się jedynie do ubrań oraz samego sklepu) do GPT
+- [ ] **5.0** Filtrowanie odpowiedzi po sentymencie
+
+Można wykorzystać lokalny model przez [ollama](https://ollama.com/).
