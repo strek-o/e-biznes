@@ -133,14 +133,10 @@ https://github.com/user-attachments/assets/fc517ef8-b901-4eb6-bbda-db0dfbd86148
 
 ## Zadanie 10 `Chmura`
 
-- [x] **3.0** Należy stworzyć odpowiednie instancje po stronie chmury na dockerze
+- [x] **3.0** Należy stworzyć odpowiednie instancje po stronie chmury na dockerze [[commit]](https://github.com/strek-o/e-biznes/tree/db09bfebf744e67396a66c9a8b35c34dc1abf93e)
 - [ ] **3.5** Stworzyć odpowiedni pipeline w Github Actions do budowania aplikacji (np. via fatjar)
 - [ ] **4.0** Dodać notyfikację mailową o wynikach z sonara
 - [ ] **4.5** Dodać krok z deploymentem aplikacji klienckiej na chmurę (obie ze sobą rozmawiają)
 - [ ] **5.0** Dodać uruchomienie regresyjnych testów automatycznych (funkcjonalnych) jako krok w Actions w Browserstacku
 
-
-
 https://github.com/user-attachments/assets/ba551fe0-5ffd-4df0-8a84-6dd7e42592a2
-
-
