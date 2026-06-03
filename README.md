@@ -127,7 +127,7 @@ Należy rozszerzyć funkcjonalność wcześniej stworzonego bota. Do niego nale�
 Można wykorzystać lokalny model przez [ollama](https://ollama.com/).
 
 > [!NOTE]
-> Ponieważ w zadaniu z botem na platformę Discord zrobiłem jedynie webhooka, tutaj ograniczam się tylko do serwisu w Pythonie, który komunikuje się z lokalnym modelem **llama3.2**.
+> Ponieważ w zadaniu z botem na platformę Discord zrobiłem jedynie webhooka, tutaj ograniczam się tylko do serwisu w Pythonie, który komunikuje się z lokalnym modelem _llama3.2_.
 
 https://github.com/user-attachments/assets/fc517ef8-b901-4eb6-bbda-db0dfbd86148
 
