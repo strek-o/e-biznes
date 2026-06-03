@@ -26,11 +26,6 @@ class ChatResponse(BaseModel):
     model: str
 
 
-@app.get("/test")
-def test():
-    return {"status": "ok", "model": MODEL}
-
-
 @app.post("/chat", response_model=ChatResponse)
 def chat(req: ChatRequest):
     text = (req.message or "").strip()
