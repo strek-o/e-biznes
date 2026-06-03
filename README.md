@@ -40,11 +40,7 @@ https://github.com/user-attachments/assets/290eae46-1ea9-4b91-abe5-25386e54a9bc
 
 Aplikację należy uruchomić na dockerze.
 
-
-
 https://github.com/user-attachments/assets/b4996e59-4aa4-4fbc-ab9c-86534c815377
-
-
 
 ## Zadanie 4 `Go`
 
@@ -56,11 +52,7 @@ Należy stworzyć projekt w echo w Go. Należy wykorzystać gorm do stworzenia k
 - [ ] **4.5** Należy stworzyć model kategorii i dodać relację między kategorią, a produktem
 - [ ] **5.0** Pogrupować zapytania w gorm’owe scope'y
 
-
-
 https://github.com/user-attachments/assets/9799b1d9-2dc1-42b0-ad65-faa2f42c8e4d
-
-
 
 ## Zadanie 5 `Frontend`
 
@@ -72,12 +64,7 @@ Należy stworzyć aplikację kliencką wykorzystując bibliotekę React.js. W ra
 - [ ] **4.5** Należy dodać skrypt uruchamiający aplikację serwerową oraz kliencką na dockerze via docker-compose
 - [ ] **5.0** Należy wykorzystać axios’a oraz dodać nagłówki pod CORS
 
-
-
-
 https://github.com/user-attachments/assets/e4725bfa-8c6a-4c31-bf49-c177d65dcaad
-
-
 
 ## Zadanie 6 `Testy`
 
@@ -94,11 +81,7 @@ Testy mają w sumie zawierać minimum 50 asercji (3.5). Mają również uruchami
 - [ ] **4.5** Należy dodać testy API, należy pokryć wszystkie endpointy z minimum jednym scenariuszem negatywnym per endpoint
 - [ ] **5.0** Należy uruchomić testy funkcjonalne na Browserstacku
 
-
-
 https://github.com/user-attachments/assets/739967ff-e6fa-4551-b274-18697e2e1103
-
-
 
 ## Zadanie 7 `Sonar`
 
@@ -110,11 +93,7 @@ Należy dodać projekt aplikacji klienckiej oraz serwerowej (jeden branch, dwa r
 - [ ] **4.5** Należy wyeliminować wszystkie podatności oraz błędy bezpieczeństwa w kodzie w Sonarze (kod aplikacji serwerowej)
 - [ ] **5.0** Należy wyeliminować wszystkie błędy oraz zapaszki w kodzie aplikacji klienckiej
 
-
-
 https://github.com/user-attachments/assets/db3a923a-a991-41cd-8fa1-8039cc1e9dd8
-
-
 
 ## Zadanie 8 `Oauth2`
 
@@ -133,12 +112,7 @@ Klucz należy uzyskać na:
 - https://console.cloud.google.com/apis/dashboard
 - https://developers.facebook.com/
 
-
-
-
 https://github.com/user-attachments/assets/2970bfb1-8f1d-40d6-a854-384c0d75e39c
-
-
 
 ## Zadanie 9 `GPT`
 
@@ -152,9 +126,4 @@ Należy rozszerzyć funkcjonalność wcześniej stworzonego bota. Do niego nale�
 
 Można wykorzystać lokalny model przez [ollama](https://ollama.com/).
 
-
-
-
 https://github.com/user-attachments/assets/fc517ef8-b901-4eb6-bbda-db0dfbd86148
-
-
