@@ -13,6 +13,8 @@
 
 Punkty 3.0-4.5 powinny mieć osobny obraz Dockerowy.
 
+<img width="2559" height="1393" alt="zadanie01" src="https://github.com/user-attachments/assets/e1f8fae3-a873-4d98-b58c-ad3db0e4b0e3" />
+
 ## Zadanie 2 `Scala`
 
 Należy stworzyć aplikację na frameworku Play lub Scalatra.
@@ -26,6 +28,8 @@ Należy stworzyć aplikację na frameworku Play lub Scalatra.
 Kontrolery mogą bazować na listach zamiast baz danych.  
 CRUD: show all, show by id (get), update (put), delete (delete), add (post).
 
+https://github.com/user-attachments/assets/290eae46-1ea9-4b91-abe5-25386e54a9bc
+
 ## Zadanie 3 `Kotlin`
 
 - [x] **3.0** Należy stworzyć aplikację kliencką w Kotlinie we frameworku Ktor, która pozwala na przesyłanie wiadomości na platformę Discord [[commit]](https://github.com/strek-o/e-biznes/tree/ad7e1a78aaac2195abcb82955e4182e3b178321a)
@@ -35,6 +39,12 @@ CRUD: show all, show by id (get), update (put), delete (delete), add (post).
 - [ ] **5.0** Aplikacja obsłuży dodatkowo jedną z platform: Slack lub Messenger
 
 Aplikację należy uruchomić na dockerze.
+
+
+
+https://github.com/user-attachments/assets/b4996e59-4aa4-4fbc-ab9c-86534c815377
+
+
 
 ## Zadanie 4 `Go`
 
@@ -46,6 +56,12 @@ Należy stworzyć projekt w echo w Go. Należy wykorzystać gorm do stworzenia k
 - [ ] **4.5** Należy stworzyć model kategorii i dodać relację między kategorią, a produktem
 - [ ] **5.0** Pogrupować zapytania w gorm’owe scope'y
 
+
+
+https://github.com/user-attachments/assets/9799b1d9-2dc1-42b0-ad65-faa2f42c8e4d
+
+
+
 ## Zadanie 5 `Frontend`
 
 Należy stworzyć aplikację kliencką wykorzystując bibliotekę React.js. W ramach projektu należy stworzyć trzy komponenty: Produkty, Koszyk oraz Płatności. Koszyk oraz Płatności powinny wysyłać do aplikacji serwerowej dane, a w Produktach powinniśmy pobierać dane o produktach z aplikacji serwerowej. Aplikacja serwera w jednym z trzech języków: Kotlin, Scala, Go. Dane pomiędzy wszystkimi komponentami powinny być przesyłane za pomocą React hooks.
@@ -55,6 +71,13 @@ Należy stworzyć aplikację kliencką wykorzystując bibliotekę React.js. W ra
 - [ ] **4.0** Dane pomiędzy wszystkimi komponentami powinny być przesyłane za pomocą React hooks
 - [ ] **4.5** Należy dodać skrypt uruchamiający aplikację serwerową oraz kliencką na dockerze via docker-compose
 - [ ] **5.0** Należy wykorzystać axios’a oraz dodać nagłówki pod CORS
+
+
+
+
+https://github.com/user-attachments/assets/e4725bfa-8c6a-4c31-bf49-c177d65dcaad
+
+
 
 ## Zadanie 6 `Testy`
 
@@ -71,6 +94,12 @@ Testy mają w sumie zawierać minimum 50 asercji (3.5). Mają również uruchami
 - [ ] **4.5** Należy dodać testy API, należy pokryć wszystkie endpointy z minimum jednym scenariuszem negatywnym per endpoint
 - [ ] **5.0** Należy uruchomić testy funkcjonalne na Browserstacku
 
+
+
+https://github.com/user-attachments/assets/739967ff-e6fa-4551-b274-18697e2e1103
+
+
+
 ## Zadanie 7 `Sonar`
 
 Należy dodać projekt aplikacji klienckiej oraz serwerowej (jeden branch, dwa repozytoria) do [Sonara w wersji chmurowej](https://sonarcloud.io/). Należy poprawić aplikacje uzyskując 0 bugów, 0 zapaszków, 0 podatności, 0 błędów bezpieczeństwa. Dodatkowo należy dodać widżety sonarowe do README w repozytorium dane projektu z wynikami.
@@ -80,6 +109,12 @@ Należy dodać projekt aplikacji klienckiej oraz serwerowej (jeden branch, dwa r
 - [x] **4.0** Należy wyeliminować wszystkie zapaszki w kodzie w Sonarze (kod aplikacji serwerowej) [[commit]](https://github.com/strek-o/e-biznes/tree/aafa6a2cbf2110d4b78f5652ea2b22e2e444e3f5)
 - [ ] **4.5** Należy wyeliminować wszystkie podatności oraz błędy bezpieczeństwa w kodzie w Sonarze (kod aplikacji serwerowej)
 - [ ] **5.0** Należy wyeliminować wszystkie błędy oraz zapaszki w kodzie aplikacji klienckiej
+
+
+
+https://github.com/user-attachments/assets/db3a923a-a991-41cd-8fa1-8039cc1e9dd8
+
+
 
 ## Zadanie 8 `Oauth2`
 
@@ -98,6 +133,13 @@ Klucz należy uzyskać na:
 - https://console.cloud.google.com/apis/dashboard
 - https://developers.facebook.com/
 
+
+
+
+https://github.com/user-attachments/assets/2970bfb1-8f1d-40d6-a854-384c0d75e39c
+
+
+
 ## Zadanie 9 `GPT`
 
 Należy rozszerzyć funkcjonalność wcześniej stworzonego bota. Do niego należy stworzyć aplikację frontendową, która połączy się z osobnym serwisem, który przeanalizuje tekst od użytkownika i prześle zapytanie do GPT, a następnie prześle odpowiedź do użytkownika. Cały projekt należy stworzyć w Pythonie.
@@ -109,3 +151,10 @@ Należy rozszerzyć funkcjonalność wcześniej stworzonego bota. Do niego nale�
 - [ ] **5.0** Filtrowanie odpowiedzi po sentymencie
 
 Można wykorzystać lokalny model przez [ollama](https://ollama.com/).
+
+
+
+
+https://github.com/user-attachments/assets/fc517ef8-b901-4eb6-bbda-db0dfbd86148
+
+
