@@ -127,3 +127,4 @@ Należy rozszerzyć funkcjonalność wcześniej stworzonego bota. Do niego nale�
 Można wykorzystać lokalny model przez [ollama](https://ollama.com/).
 
 https://github.com/user-attachments/assets/fc517ef8-b901-4eb6-bbda-db0dfbd86148
+
