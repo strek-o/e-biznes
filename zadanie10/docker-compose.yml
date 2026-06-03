@@ -1,0 +1,26 @@
+services:
+  backend:
+    build: ./backend
+    image: streko/e-biznes:zadanie10.backend-3.0
+    container_name: zadanie10-backend
+    ports:
+      - "8080:8080"
+    networks:
+      - cloud
+
+  frontend:
+    build: ./frontend
+    image: streko/e-biznes:zadanie10.frontend-3.0
+    container_name: zadanie10-frontend
+    environment:
+      - API_URL=http://localhost:8080
+    ports:
+      - "3000:80"
+    depends_on:
+      - backend
+    networks:
+      - cloud
+
+networks:
+  cloud:
+    driver: bridge
