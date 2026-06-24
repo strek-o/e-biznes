@@ -1,6 +1,6 @@
 # E-biznes
 
-[Docker Hub](https://hub.docker.com/r/streko/e-biznes/tags)  
+[Docker Hub]()  
 [WFAIS.IF-D208.0]
 
 ## Zadanie 1 `Docker`
@@ -133,7 +133,7 @@ https://github.com/user-attachments/assets/fc517ef8-b901-4eb6-bbda-db0dfbd86148
 
 ## Zadanie 10 `Chmura`
 
-[Azure](https://zadanie10-frontend-strek.azurewebsites.net/)
+[Azure]()
 
 - [x] **3.0** Należy stworzyć odpowiednie instancje po stronie chmury na dockerze [[commit]](https://github.com/strek-o/e-biznes/tree/db09bfebf744e67396a66c9a8b35c34dc1abf93e)
 - [ ] **3.5** Stworzyć odpowiedni pipeline w Github Actions do budowania aplikacji (np. via fatjar)
